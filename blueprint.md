@@ -9,13 +9,14 @@ This project is a simple web application that generates random lottery numbers.
 *   Generates 6 unique random numbers between 1 and 45.
 *   Displays the generated numbers in a visually appealing way.
 *   Allows the user to generate new numbers with a button click.
+*   Google Analytics (gtag.js) integration for tracking.
 
 ## Current Request
 
-The user wants to change the existing "Hello World" application into a lottery number generator.
+The user wants to add the Google tag (gtag.js) to all HTML files in the project.
 
 ### Plan
 
-1.  **Update `index.html`:** Create the user interface for the lottery number generator, including a title, a place to display the numbers, and a button to generate them.
-2.  **Update `style.css`:** Add styles to make the lottery number generator visually appealing, including colors, fonts, and layout.
-3.  **Update `main.js`:** Implement the JavaScript logic to generate and display the lottery numbers when the button is clicked.
+1.  **Identify all HTML files:** Use `glob` to find all HTML files (already done: `index.html`).
+2.  **Add gtag.js to `<head>`:** Insert the Google Tag script at the top of the `<head>` section in each HTML file.
+3.  **Verify changes:** Ensure the scripts are correctly inserted and the pages still load.
