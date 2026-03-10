@@ -113,6 +113,17 @@ button#generate:active {
     transform: scale(0.98);
 }
 
+.ad-container {
+    margin: 2rem 0;
+    min-height: 90px;
+    background-color: var(--shadow-color);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .separator {
     border: 0;
     height: 1px;
