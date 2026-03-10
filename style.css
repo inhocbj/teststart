@@ -112,3 +112,59 @@ button#generate:hover {
 button#generate:active {
     transform: scale(0.98);
 }
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: var(--shadow-color);
+    margin: 2rem 0;
+}
+
+.contact-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--shadow-color);
+    border-radius: 8px;
+    background-color: var(--number-bg);
+    color: var(--text-color);
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--button-bg);
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: transparent;
+    color: var(--button-bg);
+    border: 2px solid var(--button-bg);
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: var(--button-bg);
+    color: white;
+}
